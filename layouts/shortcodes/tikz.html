@@ -1,4 +1,10 @@
 {{/* The inner should contain a `tikzpicture` or `document` environment. */}}
 <script type="text/tikz">
-{{ .Inner }}
+  {{ if (strings.Contains .Inner "\\begin{document}") }}
+    {{ .Inner }}
+  {{ else }}
+    \begin{document}
+      {{ .Inner }}
+    \end{document}
+  {{ end }}
 </script>
