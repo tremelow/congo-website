@@ -1,0 +1,12 @@
+{{ if .Page.HasShortcode "chart" }}
+  {{ $chartLib := resources.Get "lib/chart/chart.umd.js" }}
+  {{ $chartConfig := resources.Get "js/chart.js" }}
+  {{ $chartConfig := $chartConfig | resources.Minify }}
+  {{ $chartJS := slice $chartLib $chartConfig | resources.Concat "js/chart.bundle.js" | resources.Fingerprint "sha512" }}
+  <script
+    defer
+    type="text/javascript"
+    src="{{ $chartJS.RelPermalink }}"
+    integrity="{{ $chartJS.Data.Integrity }}"
+  ></script>
+{{ end }}

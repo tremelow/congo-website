@@ -1,0 +1,17 @@
+{{ if .Page.HasShortcode "tikz" }}
+  <!-- https://github.com/benrbray/tikzjax -->
+  {{ $tikzFonts := resources.Get "lib/tikzjax/fonts.css" }}
+  {{ $tikzFonts := $tikzFonts | resources.Fingerprint "sha512" }}
+  <link 
+    rel="stylesheet" 
+    type="text/css" 
+    href="{{ $tikzFonts.RelPermalink }}" 
+    integrity="{{ $tikzFonts.Data.Integrity }}"
+  >
+  {{ $tikzJS := resources.Get "lib/tikzjax/tikzjax.js" }}
+  {{ $tikzJS := $tikzJS | resources.Fingerprint "sha512" }}
+  <script defer 
+    src="{{ $tikzJS.RelPermalink }}" 
+    integrity="{{ $tikzJS.Data.Integrity }}"
+  ></script>
+{{ end }}
