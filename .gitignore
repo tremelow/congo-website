@@ -1,5 +1,2 @@
 .DS_Store
 .hugo_build.lock
-public/*
-themes/*/exampleSite/public/*
-resources/_gen/*

@@ -1,15 +1,6 @@
 {{/* The inner should contain a `tikzpicture` or `document` environment. */}}
-<div class="flex" width="full">
-  <!-- very hacky way to center -->
-  <div class="flex-grow"></div>
+<script type="image/tikz" type="module">
   <script type="text/tikz">
-    {{ if (strings.Contains .Inner "\\begin{document}") }}
-      {{ .Inner }}
-    {{ else }}
-      \begin{document}
-        {{ .Inner }}
-      \end{document}
-    {{ end }}
+    {{ .Inner }}
   </script>
-  <div class="flex-grow"></div>
-</div>
+</script>

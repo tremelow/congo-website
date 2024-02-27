@@ -8,15 +8,15 @@ title = "Léopold Trémant"
 
 [params]
   dateFormat = "2 January 2006"
+
   # mainSections = ["section1", "section2"]
   # description = "My awesome website"
 
 [params.author]
   name = "Léopold Trémant"
   image = "img/author.jpg"
-  imageAlt = "Drawing of myself by the wonderful Marie Morin (Instagram @marmo.graphics)"
   headline = "Post-doc at Inria in Strasbourg"
-  bio = "Post-doc at Inria in Strasbourg"
+  bio = "A little bit about you"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
