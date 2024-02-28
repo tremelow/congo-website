@@ -1,0 +1,15 @@
+{{ $footnoteCSS := resources.Get "lib/footnote/footnote.css" }}
+{{ $footnoteCSS := $footnoteCSS | resources.Fingerprint "sha512" }}
+<link
+  type="text/css"
+  rel="stylesheet"
+  href="{{ $footnoteCSS.RelPermalink }}"
+  integrity="{{ $footnoteCSS.Data.Integrity }}"
+/>
+{{ $footnoteJS := resources.Get "lib/footnote/initFootnoteTooltip.js" }}
+{{ $footnoteJS := $footnoteJS | resources.Fingerprint "sha512" }}
+<script
+  defer
+  src="{{ $footnoteJS.RelPermalink }}"
+  integrity="{{ $footnoteJS.Data.Integrity }}"
+></script>
