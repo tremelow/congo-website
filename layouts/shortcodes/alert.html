@@ -1,0 +1,3 @@
+{{ $icon := (.Get 0 | default "triangle-exclamation") }}
+{{ $content := (.Inner | markdownify) }}
+{{ partial "alert" (dict "Icon" $icon "Content" $content) }}
