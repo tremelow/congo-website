@@ -42,7 +42,7 @@
         </div>
       {{ end }}
       <div class="min-h-0 min-w-0 max-w-prose grow">
-        {{ if (or (.Page.HasShortcode "tikz") (.Page.HasShortcode "figure")) }}
+        {{ if (or (.Page.HasShortcode "tikz") (.Page.HasShortcode "fig")) }}
             {{ $icon := "triangle-exclamation" }}
             {{ $content := "The diagrams and figures might not be fully compatible with dark mode! It's a known issue I'm working on." }}
             {{ partial "alert.html" (dict "Icon" $icon "Content" $content )}}
