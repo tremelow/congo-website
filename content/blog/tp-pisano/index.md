@@ -2,7 +2,7 @@
 title = 'TP: Visualisation de la période de Pisano'
 date = 2022-05-11
 draft = false
-categories = "enseignement"
+categories = "Enseignement"
 tags = ["ludique", "licence"]
 +++
 {{< katex >}}
