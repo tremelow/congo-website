@@ -28,7 +28,7 @@ As mentioned previously, backward error analysis serves to find a so-called "mod
 where \\(\varphi_h\\) represents the exact integration of the ODE and \\(\Phi_h\\) represents the application of a numerical method. The vector field \\(u \mapsto f(u)\\) is the original vector field on which the numerical method is applied and \\(u \mapsto \widetilde{f}_h(u)\\) is the aforementioned *modified* vector field.
 
 As an illustration[^julia-bseries] here is a [Lotka-Volterra](https://en.wikipedia.org/wiki/Lotka-Volterra_equations) problem
-\\[\begin{cases}\dot u_1 = u_1(2 - u_2), \quad & u_1(0) = 2, \\ \dot u_2 = u_2(u_1 - 1), & u_2(0) = 2 . \end{cases} \\]
+\\[\begin{cases}\dot u_1 = u_1(2 - u_2), \quad \& u_1(0) = 2, \\\\ \dot u_2 = u_2(u_1 - 1), \& u_2(0) = 2 . \end{cases} \\]
 simulated using the [explicit Euler method](https://en.wikipedia.org/wiki/Euler_method), overlaid with the exact solutions of both the original problem and the modified problem, in phase-space.
 
 [^julia-bseries]: These illustrations are possible thanks to the Julia package [B-Series](https://github.com/ranocha/BSeries.jl). Thanks to the devs!
