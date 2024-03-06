@@ -35,3 +35,11 @@
 .w-4\/5 {
     width: 80%;
 }
+
+/* Copy background color from body */
+svg > * {
+    --background-tikz: rgba(var(--color-neutral),var(--tw-bg-opacity))
+  }
+  :is(.dark svg) > * {
+    --background-tikz: rgba(var(--color-neutral-800),var(--tw-bg-opacity))
+  }
