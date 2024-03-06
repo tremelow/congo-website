@@ -44,8 +44,8 @@
       <div class="min-h-0 min-w-0 max-w-prose grow">
         {{ if (or (.Page.HasShortcode "tikz") (.Page.HasShortcode "figure")) }}
             {{ $icon := "triangle-exclamation" }}
-            {{ $content := "The diagrams and figures might not be fully compatible with dark mode! It's a known issue I'm working on." }}
-            {{ partial "alert.html" (dict "Icon" $icon "Content" $content )}}
+            {{ $message := "The figures might not be fully compatible with dark mode! It's a known issue I'm working on. Also, TikZ figures have recently been made compatible! If you're still seeing black figures in dark mode, you can open web tools (in Firefox) > Storage > Indexed DB > right-click TikzJax > Delete." }}
+            {{ partial "alert.html" (dict "Icon" $icon "Content" $message )}}
         {{ end }}
         {{ .Content | emojify }}
       </div>
