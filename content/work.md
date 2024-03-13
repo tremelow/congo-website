@@ -31,5 +31,5 @@ Thesis
 {{< /lead >}}
 
 - **LT**, "Méthodes d’analyse asymptotique et d’approximation numérique" (2021). PhD thesis.
-  {{< badge href="publications/phd-thesis_LTremant.pdf" >}}PDF{{< /badge >}}
-  {{< badge href="slides/phd-slides_LTremant.pdf" >}}Slides{{< /badge >}}
+  {{< badge href="phd/phd-thesis_LTremant.pdf" >}}PDF{{< /badge >}}
+  {{< badge href="phd/phd-slides_LTremant.pdf" >}}Slides{{< /badge >}}
