@@ -1,7 +1,7 @@
 ---
 title: "About me"
 draft: false
-description: "The publications of {{ .Site.Author }}."
+# description: "Listing research publications of L. Trémant."
 showDate: false
 showAuthor: false
 showReadingTime: false
