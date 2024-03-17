@@ -1,6 +1,7 @@
 ---
 title: Making my website using Hugo
 date: 2024-03-05
+lastmod: 2024-03-17
 draft: false
 ---
 
@@ -74,6 +75,7 @@ Maybe importing the website as a submodule would also work, and it would make it
 - Imported a TikZJax script by [benrbray](https://github.com/benrbray/tikzjax)
 - Modified `badge` to allow `href` in it (because `button` was too clunky)
 - Preview on footnote hover (thanks to [1](https://blog.securecloudops.com/post/doc-footnote-preview/) [2](https://github.com/aidenlx/better-fn)), which still needs work
+- Added a parameter `reverseChronological` to avoid chronological order
 
 All these modifications are visible either in `assets` or `layouts`.
 
@@ -81,7 +83,9 @@ All these modifications are visible either in `assets` or `layouts`.
 
 There are many things I'm still not satisfied with at the moment, which I'll hopefully tackle eventually.
 
-- [ ] Blog section should present every post on the list page, topics should get flattened (users can click on breadcrumbs to get back to a topic summary)
+- [ ] Blog homepage
+  - [x] Flatten subsections to present every post on the list page (users can click on breadcrumbs to get back to a topic summary)
+  - [ ] Display parent topic if the post is part of a series
 - [ ] Callout boxes
   - [ ] Fix weird offset when it contains a list
   - [ ] Make them foldable and give them a potential title (maybe using [`<details>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details))
@@ -91,7 +95,7 @@ There are many things I'm still not satisfied with at the moment, which I'll hop
   - [ ] fit width to content of footnote hover
 - [ ] "Cite" button for publications, to make the Bibtex appear
 - [ ] Dark / Light colour theme
-  - [ ] Post-process TikZ images to fit with the theme (graft the post-process of [Obsidian TikZ](https://github.com/artisticat1/obsidian-tikzjax/) with the [most recent](https://github.com/bill-ion/tikzjax) or [most visible](https://github.com/benrbray/tikzjax) fork, as motivated by this [StackOverflow answer](https://stackoverflow.com/questions/77758813/how-to-use-tikz-libraries-in-tikzjax))
+  - [x] Post-process TikZ images to fit with the theme (graft the post-process of [Obsidian TikZ](https://github.com/artisticat1/obsidian-tikzjax/) with the [most recent](https://github.com/bill-ion/tikzjax) or [most visible](https://github.com/benrbray/tikzjax) fork, as motivated by this [StackOverflow answer](https://stackoverflow.com/questions/77758813/how-to-use-tikz-libraries-in-tikzjax))
   - [ ] Different images depending on theme (reading list: [1](https://ahelwer.ca/post/2023-04-06-dark-mode/) [2](https://stenbrinke.nl/blog/adding-support-for-dark-and-light-images-to-hugo-figure-shortcode/) [3](https://zerovip.github.io/en/15738/))
 - [ ] My own colour theme
 - [ ] Colour to indicate current section in navigation bar (maybe superfluous with breadcrumbs) and/or position in Table of contents

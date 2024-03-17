@@ -2,8 +2,10 @@
 title: A gentle introduction to backward error analysis
 date: 2024-02-28
 draft: false
+reverseChronological: false
 cascade:
-    showPagination: true
+  # showSummary: true
+  showPagination: true
 ---
 {{< katex >}}
 
@@ -15,7 +17,3 @@ My goal here is to present some ideas and to illustrate the results with some si
 - Chartier, Hairer, Vilmart, "Numerical integrators based on modified differential equations" in *Math. of Comp.* (2007) {{< badge href="https://doi.org/10.1090/S0025-5718-07-01967-9" >}}DOI{{< /badge >}}
 - Chartier, Hairer, Vilmart, "Algebraic Structures of B-series" in *FoCM* (2010) {{< badge href="https://doi.org/10.1007/s10208-010-9065-1" >}}DOI{{< /badge >}}
 - Hairer, Lubich, Wanner, *Geometric Numerical Integration* (2006) {{< badge href="https://doi.org/10.4171/owr/2006/14" >}}DOI{{< /badge >}}
-
-{{< alert >}}
-  The posts below are sorted in reverse chronological order. You may want to start from the final post listed.
-{{< /alert >}}

@@ -5,10 +5,10 @@ flattenStructure: true
 cascade:
   showEdit: false
   showAuthor: false
-  showSummary: true
   groupByYear: false
   showBreadcrumbs: true
   showTableOfContents: true
+  showSummary: false
 ---
 
 {{< lead >}}
