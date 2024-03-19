@@ -26,7 +26,7 @@
   </section>
   {{ if .Data.Pages }}
     {{ $pages := (cond ($.Params.flattenStructure | default false) .RegularPagesRecursive .Pages) }}
-    {{ $pages := (cond ($.Params.reverseChronological | default true ) $pages $pages.ByDate.Reverse) }}
+    {{ $pages := (cond ($.Params.reverseChronological | default true) $pages $pages.ByDate) }}
     <section>
       {{ if $.Params.groupByYear | default ($.Site.Params.list.groupByYear | default true) }}
         {{ range (.Paginate ($pages.GroupByDate "2006")).PageGroups }}
