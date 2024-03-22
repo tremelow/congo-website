@@ -18,7 +18,7 @@ Journals
   {{< badge href="https://hal.univ-grenoble-alpes.fr/hal-04171818" >}}HAL{{< /badge >}}
 
 - Philippe Chartier, Mohammed Lemou, Florian Méhats, **LT**, "Averaging in a Nutshell" (2024). To be submitted.
-  {{< badge href="avg-nutshell.pdf" >}}PDF{{< /badge >}}
+  {{< badge href="publications/avg-nutshell.pdf" >}}PDF{{< /badge >}}
 
 - Philippe Chartier, Mohammed Lemou, **LT**, "A uniformly accurate numerical method for a class of dissipative systems" (2021). In *Math. Comp*.
   {{< badge href="publications/relax-mima.pdf" >}}PDF{{< /badge >}}
