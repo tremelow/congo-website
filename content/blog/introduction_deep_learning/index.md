@@ -20,3 +20,8 @@ Les aspects théoriques sont illustrés par des TPs, disponibles dans la liste s
 
 - TP1.1 - Régression linéaire {{< badge href="TP1.1 - Régression linéaire.ipynb" >}}ipynb{{< /badge >}}
 - TP1.2 - Descente de gradient {{< badge href="TP1.2 - Descente de gradient.ipynb" >}}ipynb{{< /badge >}}
+- TP1.3 - Optimisation en PyTorch {{< badge href="TP1.3 - Optimisation en PyTorch.ipynb" >}}ipynb{{< /badge >}}
+
+
+Les vidéos inaccessibles sur le réseau de l'IUT :
+- [Deepmath - Tenseurs](Deepmath-Tenseurs.mp4)
