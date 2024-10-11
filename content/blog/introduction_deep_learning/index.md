@@ -16,13 +16,17 @@ On ne considère que l'apprentissage supervisé, ce qui permet de se concentrer 
 On commence par une représentation simple d'approximation affine et régression linéaire pour se concentrer sur l'optimisation.
 Une fois le *pipeline* d'optimisation en PyTorch est assimilé sur cet exemple, on introduit les perceptrons multi-couches, puis les transformeurs.
 
-Les aspects théoriques sont illustrés par des TPs, disponibles dans la liste suivante, fréquemment mise à jour :
+Les aspects théoriques sont illustrés par des TPs, disponibles dans la liste suivante, fréquemment mise à jour.
 
+Projet 1 : Focus sur la partie Optimisation
 - TP1.1 - Régression linéaire {{< badge href="TP1.1 - Régression linéaire.ipynb" >}}ipynb{{< /badge >}}
 - TP1.2 - Descente de gradient {{< badge href="TP1.2 - Descente de gradient.ipynb" >}}ipynb{{< /badge >}}
 - TP1.3 - Optimisation en PyTorch {{< badge href="TP1.3 - Optimisation en PyTorch.ipynb" >}}ipynb{{< /badge >}}
 - TP1.4 - Apprentissage par lots {{< badge href="TP1.4 - Apprentissage par lots.ipynb" >}}ipynb{{< /badge >}} {{< badge href="projet1.py" >}}py{{< /badge >}}
 
+Projet 2 : Perceptrons multi-couche {{< badge href="utils.py" >}}utils.py{{< /badge >}}
+- TP2.1 -Régression sans a priori {{< badge href="TP2.1 - Régression sans a priori.ipynb" >}}ipynb{{< /badge >}}
+- TP2.2 - Classification sur MNIST {{< badge href="TP2.2 - Classification sur MNIST.ipynb" >}}ipynb{{< /badge >}}
 
 Les vidéos inaccessibles sur le réseau de l'IUT :
 - [Deepmath - Tenseurs](Deepmath-Tenseurs.mp4)
