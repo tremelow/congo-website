@@ -25,7 +25,7 @@ Projet 1 : Focus sur la partie Optimisation
 - TP1.4 - Apprentissage par lots {{< badge href="TP1.4 - Apprentissage par lots.ipynb" >}}ipynb{{< /badge >}} {{< badge href="projet1.py" >}}py{{< /badge >}}
 
 Projet 2 : Perceptrons multi-couche {{< badge href="utils.py" >}}utils.py{{< /badge >}}
-- TP2.1 -Régression sans a priori {{< badge href="TP2.1 - Régression sans a priori.ipynb" >}}ipynb{{< /badge >}}
+- TP2.1 -Régression sans a priori {{< badge href="2.1 - Régression sans a priori.ipynb" >}}ipynb{{< /badge >}}
 - TP2.2 - Classification sur MNIST {{< badge href="TP2.2 - Classification sur MNIST.ipynb" >}}ipynb{{< /badge >}}
 
 Les vidéos inaccessibles sur le réseau de l'IUT :
