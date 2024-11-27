@@ -2,3 +2,6 @@
 	path = themes/congo
 	url = https://github.com/jpanther/congo.git
 	branch = stable
+[submodule "public"]
+	path = public
+	url = git@github.com:tremelow/tremelow.github.io.git
