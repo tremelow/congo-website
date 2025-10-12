@@ -1,5 +1,5 @@
 ---
-title: "[FR] Équations différentielles stochastiques et modèles de diffusion (groupe de travail)"
+title: Équations différentielles stochastiques et modèles de diffusion (groupe de travail)
 date: 2024-11-22
 lastmod: 2024-11-22
 draft: false

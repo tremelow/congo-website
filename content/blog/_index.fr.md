@@ -1,6 +1,6 @@
 ---
-title: "Blog posts"
-description: "Cool maths, amongst other things."
+title: "Articles de blog"
+description: "Partage de maths sympa, entre autres"
 flattenStructure: true
 cascade:
   showEdit: false
@@ -12,5 +12,5 @@ cascade:
 ---
 
 {{< lead >}}
-Cool maths, amongst other things.
+Partage de maths sympa, entre autres
 {{< /lead >}}

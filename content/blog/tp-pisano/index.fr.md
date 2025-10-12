@@ -1,5 +1,5 @@
 +++
-title = '[FR] TP: Visualisation de la période de Pisano'
+title = 'TP: Visualisation de la période de Pisano'
 date = 2022-05-11
 draft = false
 categories = "Enseignement"

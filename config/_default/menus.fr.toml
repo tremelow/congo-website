@@ -11,12 +11,12 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "about"
+  name = "à propos"
   pageRef = "about"
   weight = 1
 
 [[main]]
-  name = "work"
+  name = "travaux"
   pageRef = "work"
   weight = 2
 

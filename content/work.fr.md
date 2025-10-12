@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 draft: false
-description: "List of research publications of L. Trémant."
+description: "Liste des publications de L. Trémant."
 showDate: false
 showAuthor: false
 showReadingTime: false
