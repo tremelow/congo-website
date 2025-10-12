@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 draft: false
-description: "Listing research publications of L. Trémant."
+description: "List of research publications of L. Trémant."
 showDate: false
 showAuthor: false
 showReadingTime: false
@@ -13,7 +13,12 @@ showPagination: false
 Journals
 {{< /lead >}}
 
-- Brigitte Bidégaray-Fesquet, Clément Jourdana, **LT**, *"Multi-frequency averaging and uniform accuracy towards numerical approximations for a Bloch model"* (2023). To appear in *Communications in Mathematical Sciences*.
+- Clémentine Courtès, Emmanuel Franck, Michael Kraus, Laurent Navoret, **LT**, "Neural non-canonical Hamiltonian dynamics for long-time simulations" (2025). Preprint.
+  {{< badge href="publications/learn-dvi.pdf" >}}PDF{{< /badge >}}
+  {{< badge href="https://hal.science/hal-05290903v1" >}}HAL{{< /badge >}}
+  {{< badge href="https://github.com/tremelow/symplearn/releases/tag/preprint" >}}code{{< /badge >}}
+
+- Brigitte Bidégaray-Fesquet, Clément Jourdana, **LT**, "Multi-frequency averaging and uniform accuracy towards numerical approximations for a Bloch model" (2023). In *Communications in Mathematical Sciences*.
   {{< badge href="publications/bloch-ua.pdf" >}}PDF{{< /badge >}}
   {{< badge href="https://hal.univ-grenoble-alpes.fr/hal-04171818" >}}HAL{{< /badge >}}
 
@@ -24,7 +29,15 @@ Journals
   {{< badge href="publications/relax-mima.pdf" >}}PDF{{< /badge >}}
   {{< badge href="https://doi.org/https://doi.org/10.1090/mcom/3688" >}}DOI{{< /badge >}}
 
-<!--  -->
+{{< lead >}}
+Recent talks
+{{< /lead >}}
+
+- NODYCON 2025, "Learning non-canonical Hamiltonian dynamics"
+  {{< badge href="slides/2025-06-22-NODYCON-LTremant.pdf">}}slides{{< /badge >}}
+
+- Numkin 2024, "Learning non-canonical Hamiltonian dynamics for the guiding center problem"
+  {{< badge href="slides/2024-11-06-Numkin-LTremant.pdf">}}slides{{< /badge >}}
 
 {{< lead >}}
 Thesis

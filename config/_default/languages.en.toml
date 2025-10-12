@@ -7,7 +7,7 @@ title = "Léopold Trémant"
 # copyright = "Léopold Trémant"
 
 [params]
-  dateFormat = "2 January 2006"
+  # dateFormat = "2 January 2006"
   # mainSections = ["section1", "section2"]
   # description = "My awesome website"
 
@@ -15,8 +15,8 @@ title = "Léopold Trémant"
   name = "Léopold Trémant"
   image = "img/author.jpg"
   imageAlt = "Drawing of myself by the wonderful Marie Morin (Instagram @marmo.graphics)"
-  headline = "Teaching assistant at IUT de Lens"
-  bio = "Teaching assistant at IUT de Lens"
+  headline = "Assistant professor, Université d'Artois"
+  bio = "Assistant professor, Université d'Artois"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
