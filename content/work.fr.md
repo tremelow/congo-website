@@ -10,13 +10,17 @@ showPagination: false
 ---
 
 {{< lead >}}
-Journals
+Preprint
 {{< /lead >}}
 
 - Clémentine Courtès, Emmanuel Franck, Michael Kraus, Laurent Navoret, **LT**, "Neural non-canonical Hamiltonian dynamics for long-time simulations" (2025). Preprint.
   {{< badge href="publications/learn-dvi.pdf" >}}PDF{{< /badge >}}
   {{< badge href="https://hal.science/hal-05290903v1" >}}HAL{{< /badge >}}
   {{< badge href="https://github.com/tremelow/symplearn/releases/tag/preprint" >}}code{{< /badge >}}
+
+{{< lead >}}
+Journals
+{{< /lead >}}
 
 - Brigitte Bidégaray-Fesquet, Clément Jourdana, **LT**, "Multi-frequency averaging and uniform accuracy towards numerical approximations for a Bloch model" (2023). In *Communications in Mathematical Sciences*.
   {{< badge href="publications/bloch-ua.pdf" >}}PDF{{< /badge >}}
