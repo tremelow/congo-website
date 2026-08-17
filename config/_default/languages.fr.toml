@@ -1,7 +1,7 @@
-languageCode = "fr"
-languageName = "Français"
-languageDirection = "ltr"
-weight = 1
+locale = "fr"
+label = "Français"
+direction = "ltr"
+weight = 2
 
 title = "Léopold Trémant"
 # copyright = "Léopold Trémant"

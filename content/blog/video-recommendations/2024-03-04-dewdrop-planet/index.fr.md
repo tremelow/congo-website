@@ -35,7 +35,7 @@ Autrement dit, pour chaque angle \\(\varphi\\), il faut trouver la plus petite r
 Au début, j’ai été surpris de constater que, pour les petits angles, la racine était supérieure à 1. Mais en y regardant de plus près, ça correspond bien au dessin.D’ailleurs, \\(\rho = 1\\) semble être une bonne valeur initiale pour commencer la recherche numérique de racines. 
 
 Pour calculer la force gravitationnelle, on reprend la formule donnée dans la vidéo : 
-$$ F = \int_{\theta = 0}^{2\pi} \int_{\varphi=0}^{\pi/2} \int_{\rho=0}^{r(\varphi)} \underbrace{\frac{Gm\delta}{\rho^2}}\_{\text{force}} \underbrace{ \cos(\varphi)}\_{\substack{\text{projection sur}\\\\ \text{l’axe vertical}} } \underbrace{ \rho^2 \sin(\varphi) {\rm d}\rho {\rm d}\varphi {\rm d}\theta }\_{\text{volume infinitésimal}} $$ 
+\\[ F = \int_{\theta = 0}^{2\pi} \int_{\varphi=0}^{\pi/2} \int_{\rho=0}^{r(\varphi)} \underbrace{\frac{Gm\delta}{\rho^2}}\_{\text{force}} \underbrace{ \cos(\varphi)}\_{\substack{\text{projection sur}\\\\ \text{l’axe vertical}} } \underbrace{ \rho^2 \sin(\varphi) {\rm d}\rho {\rm d}\varphi {\rm d}\theta }\_{\text{volume infinitésimal}} \\] 
 Ce qui se simplifie en : 
 \\[ F = \underbrace{2\pi G m \delta}_{\frac{5}{2}mg} \int _0^{\pi/2} r(\varphi)\cos(\varphi)\sin(\varphi) \, {\rm d}\varphi . \\] 
 Un calcul numérique ({{< badge href="dewdrop-planet-gravity.jl" >}}code{{< /badge >}}) donne : 
