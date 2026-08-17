@@ -6,7 +6,7 @@ theme = "congo"
 
 baseURL = "https://tremelow.github.io/"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+# defaultContentLanguageInSubdir = true
 
 enableRobotsTXT = true
 summaryLength = 0
