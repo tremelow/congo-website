@@ -1,0 +1,58 @@
+---
+draft: true
+---
+
+> [!warning] Alerte brouillon
+> Cet article n'est pas encore terminé. Ce qui est écrit représente ma pensée, mais seulement une partie ! En l'état, cela donne une vision *doomer* des IA génératives, et l'article devra être complété pour incorporer comment, à mon sens, ces outils peuvent être utilisés pour accompagner et accélérer la formation.
+
+Par IA, j'entends ici des modèles génératifs de code qui fonctionnent par auto-complétion «augmentée» ou avec un chatbot, par exemple ChatGPT ou Github Copilot. De peur de tenir des discours réactionnaires infondés (fréquents lorsqu'il s'agit de critiquer les nouvelles technologies), je ne veux pas exagérer les défauts des IA ni proscrire leur usage. J'aimerais en revanche prendre du recul sur la *hype* et avoir une réflexion sur l'intégration de ces nouveaux outils dans l'enseignement supérieur. Dans quelle mesure sont-ils utiles ? Quels sont les dangers d'une utilisation excessive ? Comment cadrer leur usage ?
+
+Les IA sont phénoménales pour écrire du code générique, avec des suggestions souvent plus rapide que notre pensée. On peut également s'en servir pour expliquer un code ou un texte, pour se tester sur un sujet, pour résumer des supports, pour suggérer des implémentations, ou même tout simplement pour répondre à des questions ! En revanche, leur usage dans un cadre pédagogique demande des précautions dont on n'est pas forcément immédiatement conscient.
+
+## tl;dr: Les IA dans ce cours
+
+Pour ma part, je refuse que vous utilisiez l'IA pour répondre à des questions à votre place. Je pense que c'est un outil pertinent pour plein d'usages (ci-dessus), mais il ne faut pas que ça remplace l'apprentissage. 
+
+Mes arguments sont présentés ci-dessous.
+
+## Les risques
+
+### Attention aux béquilles
+
+Dans un contexte pédagogique, on construit des problèmes volontairement simplifiés, pour travailler des compétences importantes sans superflu. Au fil du temps, on peut rajouter des détails sans surcharge mentale, lorsqu'ils deviennent pertinents. Le problème, c'est justement que les IA sont particulièrement efficaces sur ces problèmes scolaires, vu qu'ils sont simples et représentés dans les données d'entraînement. En tant qu'étudiant-e, ça veut dire qu'on peut répondre à la question (l'objectif affiché du cours) sans se confronter à la difficulté initiale (l'objectif réel du cours).
+
+Lorsqu'on travaille avec une personne, ses compétences s'améliorent au fur et à mesure, ce qui permet de travailler sur des problèmes de plus en plus compliqués. Pour l'IA, c'est l'inverse qui se produit : au bout d'un moment, la fenêtre de contexte nécessaire [dépasse les capacités](https://arxiv.org/html/2506.09250v1) de calcul/stockage, donc les performances de l'IA deviennent [catastrophiques](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf) pour des problèmes trop complexes. En outre, le chatbot est le même modèle générique tout le long de l'interaction, il ne devient pas spécialisé dans le problème considéré.
+
+Apprendre [requiert souvent une part d'inconfort](https://en.wikipedia.org/wiki/Desirable_difficulty). Une [étude de 2024](https://scale.stanford.edu/genai/repository/generative-ai-can-harm-learning) a étudié l'impact de l'utilisation de ChatGPT au lycée aux États-Unis (donc sur des notions théoriquement plus simples que celles vues en IUT). Les élèves qui ont accès à l'IA sont plus performant-es, tant qu'iels y ont accès. Sans IA, leur performance devient plus faible que celle du groupe de contrôle (qui n'a jamais utilisé l'IA). Donc il faut doser l'utilisation de la technologie pour qu'elle ne remplace pas l'apprentissage. Lorsqu'on apprend à faire du vélo, à un moment il faut enlever les petites roues[^petites-roues]. Lorsqu'on parle une langue étrangère, on ne peut utiliser Google Translate à chaque phrase.
+
+[^petites-roues]: Il est d'ailleurs découragé d'apprendre le vélo avec des petites roues, parce qu'elles [préparent mal](https://www.bemoov-bikes.com/fr/content/34-apprendre-velo-enfant-sans-petites-roues) l'apprentissage du vélo.
+
+Comme l'IA peut servir de béquille et améliorer les performances, on pourrait prendre en compte son usage avec des exercices plus compliqués, mais ça ne répondrait pas au problème puisque ça n'améliorerait pas l'*apprentissage*. Notre responsabilité en tant qu'enseignant-es est de fournir des cours et exercices qui sont pertinents : d'équilibrer les défis et de doser les récompenses pour rendre l'apprentissage gratifiant. D'encourager l'apprentissage réel et de rendre l'utilisation de l'IA moins pertinente, ne serait-ce que pour être équitable avec celleux pour qui l'accès à ces outils est [trop cher](https://www.wsj.com/tech/ai/ai-costs-expensive-startups-4c214f59). Mais il est difficile d'empêcher totalement leur utilisation.
+
+### Notion de vérité
+
+Si vous décidez malgré tout d'utiliser un modèle génératif pour vous aider à travailler, il est important de rester critique face à cet outil. Les modèles génératifs n'ont pas de notion de *vérité* ou de critères de qualités autres que la plausibilité. Certains les décrivent comme des « [perroquets stochastiques](https://en.wikipedia.org/wiki/Stochastic_parrot) ». C'est comme ça qu'on se retrouve avec des voyageurs [bloqués à la frontière](https://www.20minutes.fr/high-tech/20-mint/4145865-20250328-chatgpt-assure-besoin-visa-reste-bloque-aeroport) sans visa, parce que ChatGPT leur aurait indiqué [ne pas en avoir besoin](https://visasnews.com/chatgpt-donne-une-mauvaise-info-sur-un-visa-les-vacances-dun-couple-tombent-a-leau/). Avec des avocats qui [inventent des jurisprudences](https://www.theguardian.com/us-news/2025/may/24/alabama-prison-lawyers-chatgpt-butler-snow) pour accélérer leur préparation. Avec des systèmes informatiques plein de failles qui se font [hacker](https://pivottoai.libsyn.com/20250829-vibe-coded-build-system-nx-steals-vibe-coders-crypto). Il est clair que les réponses d'une IA doivent toujours être traités avec un haut degré de scepticisme, surtout dans un contexte sensible comme la sécurité.
+
+D'expérience personnelle, en mathématiques, une IA ne m'a jamais généré une démonstration convenable et sans fautes, même pour des problèmes très classiques. À première vue, les arguments semblaient plausibles, mais il manquait toujours quelque chose pour rendre le raisonnement réellement rigoureux. Cette expérience contraste avec celle des entreprises qui se vantent de leurs [performances en compétition](https://www.lesechos.fr/tech-medias/intelligence-artificielle/openai-lance-o1-un-modele-dia-capable-de-resoudre-des-problemes-de-maths-2118685). Ces benchmarks dépendent de prompts crées par des professionnels, ont des résultats tout à fait [relatifs](https://epoch.ai/frontiermath) et sont [relativement opaques](https://the-decoder.com/openai-quietly-funded-independent-math-benchmark-before-setting-record-with-o3/).
+
+Ainsi, l'apparence plausible des propos[^ia-plausible] rend leur utilisation particulièrement insidieuse, bien qu'elle ne résiste pas à un examen rigoureux. Les propos bien structurés ne suffisent pas à rattraper les arguments creux (voire faux) et les citations factices. Puisqu'il s'agit d'un artefact des techniques d'entraînement de ces IA, il est difficile d'imaginer que ce problème sera réglé prochainement (de même que [sa flatterie](https://openai.com/index/sycophancy-in-gpt-4o/) incontrôlable (un facteur aggravant des [psychoses](https://www.lesnumeriques.com/intelligence-artificielle/etude-sur-la-psychose-liee-a-l-ia-emergence-d-un-phenomene-inedit-n241513.html))). En attendant, de nombreux [signaux d'alarme](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) peuvent rendre ma lecture sévère.
+
+[^ia-plausible]: Désormais, la plausibilité des propos générés par IA est renforcée par l'affichage d'un « raisonnement », qui ne représente aucune réflexion réelle, mais est seulement une [surcouche pseudo-discursive](https://www.anthropic.com/research/reasoning-models-dont-say-think), une autre modalité du perroquet stochastique.
+
+
+### Au-delà du contexte pédagogique
+
+La vérité est un sujet complexe, qui peut être malmené même sans impliquer une quelconque IA. Par exemple, si un auteur [invente une citation de Socrate](https://blogs.mediapart.fr/pleaseunquote/blog/200824/les-jeunes-daujourdhui-aiment-le-luxe-meprisent-lautorite-socrate-na-jamais-dit), et que celle-là plaît au point où elle devient virale et reprise par de nombreux d'auteurs sérieux, est-ce que cette invention devient une « vraie » citation ? Dans une société « [post-vérité](https://www.franceinfo.fr/replay-radio/entre-les-lignes/chronique-ingerences-exterieures-declarations-politiques-l-ere-de-la-post-verite_6526448.html) », les perroquets stochastiques semblent particulièrement susceptibles à se faire piéger par des discours malveillants et doivent être considérés avec précaution. Avoir un esprit critique demande d'activer des connaissances réelles; l'IA n'en a pas.
+
+C'est sans parler des impacts 
+- écologiques : la [consommation d'eau](https://reporterre.net/Data-centers-leur-consommation-d-eau-va-exploser) des *data centers* (qui tendent à être [dérégulés](https://www.laquadrature.net/2025/04/09/loi-simplification-stop-au-boom-des-data-centers/)), les besoins insatiables en [terres rares](https://www.metal.com/fr/newscontent/103259776) et en [électricité](https://www.20minutes.fr/high-tech/4115659-20241015-google-geant-va-allumer-centrales-nucleaires-nouveau-type-fournir-electricite)...
+- économiques : la (potentielle) [bulle](https://pivottoai.libsyn.com/20250827-softbank-needs-openai-to-stay-alive-no-matter-what) d'[investissement](https://www.forbes.com/sites/markminevich/2025/08/26/ais-1-trillion-shakeout-bubble-correction-or-market-reset/), la dépendance à [Nvidia](https://www.investopedia.com/your-s-and-p-500-index-fund-might-not-be-as-diverse-as-you-think-and-you-can-blame-nvidia-for-that-11800715) du marché, l'augmentation des [dépenses énergétiques](https://www.youtube.com/watch?v=YN6BEUA4jNU), le [taux d'échec](https://fortune.com/2025/08/18/mit-report-95-percent-generative-ai-pilots-at-companies-failing-cfo/) dans le domaine de l'IA, le [coût d'utilisation](https://www.wsj.com/tech/ai/ai-costs-expensive-startups-4c214f59) des modèles...
+- éthiques : l'[étiquetage](https://theconversation.com/ai-is-a-multi-billion-dollar-industry-its-underpinned-by-an-invisible-and-exploited-workforce-240568) de données, la fuite d'[informations privées](https://www.techspot.com/news/108911-thousands-private-chatgpt-conversations-found-google-search-after.html), l'[origine des données](https://www.cbsnews.com/news/chatgpt-open-ai-lawuit-stolen-private-information/) [discutable](https://www.ftc.gov/news-events/news/press-releases/2023/05/ftc-doj-charge-amazon-violating-childrens-privacy-law-keeping-kids-alexa-voice-recordings-forever)
+- sécuritaires : [vidéosurveillance](https://www.laquadrature.net/2025/07/28/jeux-olympiques-2030-vous-reprendriez-bien-un-peu-de-vsa/) algorithmique, l'analyse de données privées (à travers [Chat Control](https://www.numerama.com/politique/1764426-le-plan-europeen-chat-control-pour-scanner-tous-les-messages-est-contre-pour-linstant.html), par exemple)...
+- géopolitiques : le rôle de [Taiwan](https://responsiblestatecraft.org/china-taiwan-2672344549/), la [souveraineté](https://www.inria.fr/fr/intelligence-artificielle-confiance-souverainete-numerique) des nations...
+
+Évidemment, tout cela a tendance à s'accélérer avec le développement de l'IA.
+
+## Conseils d'utilisation
+
+> [!missing] TODO

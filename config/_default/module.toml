@@ -1,3 +1,10 @@
 [hugoVersion]
   extended = true
   min = "0.165.0"
+
+[[mounts]]
+  source = "content"
+  target = "content"
+
+[mounts.sites.matrix]
+  languages = [ "*" ]

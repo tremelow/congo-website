@@ -1,7 +1,6 @@
 locale = "en"
 label = "English"
 direction = "ltr"
-contentDir = "content/en"
 weight = 1
 
 title = "Léopold Trémant"
