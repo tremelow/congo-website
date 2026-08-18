@@ -12,8 +12,6 @@ title = "Léopold Trémant"
   # description = "My awesome website"
 
 [params.author]
-  name = "Léopold Trémant"
-  image = "img/author.jpg"
   imageAlt = "Drawing of myself by the wonderful Marie Morin (Instagram @marmo.graphics)"
   headline = "Assistant professor, Université d'Artois"
   bio = "Assistant professor, Université d'Artois"
